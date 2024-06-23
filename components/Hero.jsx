@@ -35,19 +35,19 @@ const Hero = () => {
 
 
   return (
-    <section className='py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none'>
+    <section className='py-18 xl:py-22 h-[84vh] xl:pt-24 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none mb-96 xl:mb-0'>
       <div className='container mx-auto'>
         <div className='flex justify-between gap-x-8'>
           {/* text */}
           <div className='flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left'>
-            <div className='text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'>
+            <div className='text-xs uppercase font-semibold mb-4 text-primary tracking-[4px]'>
             AI / Full Stack Developer
             </div>
           
             <TextGenerateEffect className='h1 mb-4' words='Hello, my name is Sayed Sohail'> </TextGenerateEffect>
             <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>
             <br/>
-            As an AI and Machine Learning enthusiast specializing in NLP, I harness the power of advanced data science to drive innovation and optimize performance across a variety of industries. With a robust foundation in full stack development, I deliver cutting-edge solutions that enhance user experience and maximize operational efficiency. Let's connect and explore how we can transform the future together!
+            As an AI and Machine Learning enthusiast specializing in NLP, I harness the power of advanced data science to drive innovation and optimize performance across a variety of industries. With a robust foundation in full stack development, I deliver cutting-edge solutions that enhance user experience and maximize operational efficiency. <br/><br/>Let's connect and explore how we can transform the future together!
             </p>
 
 
@@ -58,14 +58,17 @@ const Hero = () => {
                   Contact me <Send size={18} />
                 </Button>
               </Link>
+              <a href="/hero/Sayed_Sohail_CV.pdf" download="Sayed_Sohail_CV.pdf" className="no-underline">
               <Button variant='secondary' className='gap-x-2'>
                 Download CV
                 <Download size={18} />
               </Button>
+              </a>
+            
             </div>
             {/* socials */}
             <Socials
-              containerStyles='flex gap-x-6 mx-auto xl:mx-0'
+              containerStyles='flex px-4 gap-x-6 mx-auto xl:mx-0'
               iconsStyles='text-foreground text-[22px] hover:text-primary transition-all'
             />
           </div>

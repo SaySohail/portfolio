@@ -12,23 +12,15 @@ import Link from 'next/link';
 
 const icons = [
   {
-    path: '/',
-    name: <RiYoutubeFill />,
-  },
-  {
-    path: '/',
+    path: 'https://www.linkedin.com/in/sayedsohail/',
     name: <RiLinkedinFill />,
   },
   {
-    path: '/',
+    path: 'https://github.com/saySohail/',
     name: <RiGithubFill />,
   },
   {
-    path: '/',
-    name: <RiFacebookFill />,
-  },
-  {
-    path: '/',
+    path: 'https://www.instagram.com/say.sohail/',
     name: <RiInstagramFill />,
   },
 ];
