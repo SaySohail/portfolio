@@ -23,7 +23,7 @@ export default function Aboutme() {
                         duration: 0.5,
                         ease: [0.4, 0.0, 0.2, 1],
                     }}
-                    className="text-2xl px-4 leading-relaxed lg:leading-snug mx-auto"
+                    className="text-2xl px-4 leading-relaxed lg:leading-snug mx-auto text-start"
                 >
                     <p>I'm Sayed Sohail Pasha Peerzade, a seasoned computer science professional based in London. With a Master's degree in Computer Science from Queen Mary University and a Bachelor's in Engineering from PES Institute of Technology, Bangalore, I have developed a diverse skill set that spans across front-end development, machine learning, AI technologies, and more.</p><br/>
                     
