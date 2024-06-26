@@ -35,7 +35,7 @@ const Hero = () => {
 
 
   return (
-    <section className='py-18 xl:py-22 h-[84vh] xl:pt-24 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none mb-96 xl:mb-0'>
+    <section className='py-18 xl:py-22 h-[84vh] xl:pt-24 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none mb-96 xl:mb-0 hide-scrollbar'>
       <div className='container mx-auto'>
         <div className='flex justify-between gap-x-8'>
           {/* text */}

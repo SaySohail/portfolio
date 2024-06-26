@@ -1,7 +1,8 @@
+"use client"
 import DevImg from './DevImg';
 import Image from 'next/image';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-
+import { useRef } from 'react';
 import {
   User2,
   MailIcon,
