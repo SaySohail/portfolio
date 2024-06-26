@@ -2,6 +2,8 @@
 import { cn } from "@/utils/cn";
 import { useMotionValue, motion, useMotionTemplate } from "framer-motion";
 import React from "react";
+import { useInView } from "react-intersection-observer";
+
 
 export const HeroHighlight = ({
   children,
@@ -60,13 +62,19 @@ export const Highlight = ({
   children,
   className,
 }) => {
+    const { ref, inView } = useInView({
+        triggerOnce: true, // Trigger animation only once
+        threshold: 0.5, // Trigger when 50% of the element is in view
+      });
+
   return (
     <motion.span
+      ref={ref}
       initial={{
         backgroundSize: "0% 100%",
       }}
       animate={{
-        backgroundSize: "100% 100%",
+        backgroundSize: inView ? "100% 100%" : "0% 100%",
       }}
       transition={{
         duration: 2,
