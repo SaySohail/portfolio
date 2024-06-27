@@ -17,86 +17,41 @@ import ProjectCard from '@/components/ProjectCard';
 
 const projectData = [
   {
-    image: '/work/3.png',
+    image: '/work/kylian_mbappe.jpg',
     category: 'react js',
-    name: 'Nexa Website',
+    name: 'Clustering of Football Players Similar to Kylian Mbappe using K-means and GMM algorithms',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
     link: '/',
-    github: '/',
+    github: 'https://github.com/SaySohail/football-player-similarity-kmeans-gmm',
   },
   {
-    image: '/work/4.png',
+    image: '/work/chatbot.jpg',
     category: 'react js',
-    name: 'Solstice Website',
+    name: 'OpenAI Personal ChatBot',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
     link: '/',
-    github: '/',
+    github: 'https://github.com/SaySohail/Chatbot',
   },
   {
-    image: '/work/2.png',
+    image: '/work/eastenders.jpg',
     category: 'next js',
-    name: 'Lumina Website',
+    name: 'NLP: Optimizing Character Vectors for Enhanced Retrieval in Eastenders Scripts',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
     link: '/',
-    github: '/',
+    github: 'https://github.com/SaySohail/nlp-vector-space-semantics',
   },
   {
-    image: '/work/1.png',
+    image: '/work/fake-news.jpg',
     category: 'next js',
-    name: 'Evolve Website',
+    name: 'Fake News Detection using Support Vector Machine (SVM) Classifier',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
     link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/3.png',
-    category: 'next js',
-    name: 'Ignite Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/4.png',
-    category: 'next js',
-    name: 'Envision Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/1.png',
-    category: 'fullstack',
-    name: 'Serenity Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/3.png',
-    category: 'fullstack',
-    name: 'Nova Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/2.png',
-    category: 'fullstack',
-    name: 'Zenith Website',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.',
-    link: '/',
-    github: '/',
-  },
+    github: 'https://github.com/SaySohail/nlp-fake-news',
+  }
 ];
 
 const Work = () => {
@@ -107,7 +62,7 @@ const Work = () => {
         <div className='max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start'>
           <h2 className='section-title mb-4'>Latest Projects</h2>
           <p className='subtitle mb-8'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Check out all of my projects from the link below.
           </p>
           <Link href='/projects'>
             <Button>All projects</Button>

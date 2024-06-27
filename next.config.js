@@ -1,4 +1,17 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    domains: [
+      "api.microlink.io", // Microlink Image Preview
+    ],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
+// next.config.js
+module.exports = {
+    images: {
+      domains: ['api.microlink.io'],
+    },
+  };
+  

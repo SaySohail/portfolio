@@ -1,0 +1,100 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "Clustering of Football Players Similar to Kylian Mbappe using K-means and GMM algorithms",
+        "description": "A serene and tranquil retreat, this house in the woods offers a peaceful escape from the hustle and bustle of city life.",
+        "className": "md:col-span-2",
+        "thumbnail": "/work/kylian_mbappe.jpg",
+        "github": "https://github.com/SaySohail/football-player-similarity-kmeans-gmm"
+      },
+      {
+        "id": 2,
+        "title": "OpenAI Personal ChatBot",
+        "description": "Perched high above the world, this house offers breathtaking views and a unique living experience. It's a place where the sky meets home, and tranquility is a way of life.",
+        "className": "col-span-1",
+        "thumbnail": "/work/chatbot.jpg",
+        "github":"https://github.com/SaySohail/Chatbot"
+      },
+      {
+        "id": 3,
+        "title": "House-keeping WhatsApp Notifier",
+        "description": "A house surrounded by greenery and nature's beauty. It's the perfect place to relax, unwind, and enjoy life.",
+        "className": "col-span-1",
+        "thumbnail": "/work/aws-cleaning.jpg",
+        "github": "https://github.com/SaySohail/aws-cleaning-rota"
+      },
+      {
+        "id": 4,
+        "title": "NLP: Optimizing Character Vectors for Enhanced Retrieval in Eastenders Scripts",
+        "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life.",
+        "className": "md:col-span-2",
+        "thumbnail": "/work/eastenders.jpg",
+        "github": "https://github.com/SaySohail/nlp-vector-space-semantics"
+      },
+      {
+        "id": 5,
+        "title": "Fake News Detection using Support Vector Machine (SVM) Classifier",
+        "description": "Nestled in the mountains, this home offers stunning views and a cozy retreat for nature lovers.",
+        "className": "md:col-span-2",
+        "thumbnail": "/work/fake-news.jpg",
+        "github": "https://github.com/SaySohail/nlp-fake-news"
+      },
+      {
+        "id": 6,
+        "title": "Semi-structured database for a taxi company using MongoDB",
+        "description": "A beautiful oasis in the desert, providing a perfect blend of luxury and natural beauty.",
+        "className": "col-span-1",
+        "thumbnail": "/work/taxi-company.jpg",
+        "github":"https://github.com/SaySohail/mongodb-taxi-company"
+      },
+      {
+        "id": 7,
+        "title": "Haskell Social Network Simulation",
+        "description": "A stylish home in the heart of the city, combining modern design with urban convenience.",
+        "className": "col-span-1",
+        "thumbnail": "/work/social-network.jpg",
+        "github": "https://github.com/SaySohail/haskell-social-network-simulation"
+      },
+      {
+        "id": 8,
+        "title": "Clustering Vowel Formant Frequencies Using Mixture of Gaussians and EM Algorithm",
+        "description": "This home by the sea offers stunning ocean views and a relaxing atmosphere.",
+        "className": "md:col-span-2",
+        "thumbnail": "/work/vowel-formant.jpg",
+        "github": "https://github.com/SaySohail/Unsupervised-Learning"
+      },
+      {
+        "id": 9,
+        "title": "Predicting Diabetes Progression Using Linear Regression and Regularization Techniques",
+        "description": "A beautiful home on the lake, perfect for water enthusiasts and those seeking tranquility.",
+        "className": "md:col-span-2",
+        "thumbnail": "/work/diabetes.jpg",
+        "github": "https://github.com/SaySohail/linear-regression-diabetes-dataset"
+      },
+      {
+        "id": 10,
+        "title": "Haskell Weather Data Harvesting App",
+        "description": "Surrounded by trees, this house offers a peaceful retreat in the heart of the forest.",
+        "className": "col-span-1",
+        "thumbnail": "/work/weather-forecast.jpg",
+        "github": "https://github.com/SaySohail/haskell-weather-app"
+      },
+      {
+        "id": 11,
+        "title": "Iris Plant Classification",
+        "description": "Iris Plant Classification Using Logistic Regression and Neural Networks",
+        "className": "md:col-span-2",
+        "thumbnail": "/work/iris.jpg",
+        "github": "https://github.com/SaySohail/iris-classification"
+      },
+      {
+        "id": 12,
+        "title": "Leveraging XQuery for Advanced XML Data Analysis and Word Frequency Insights",
+        "description": "Predicting Diabetes Progression Using Linear Regression and Regularization Techniques",
+        "className": "col-span-1",
+        "thumbnail": "/work/xml-query.jpg",
+        "github": "https://github.com/SaySohail/xml-structured-information"
+      }
+    ]
+  }
