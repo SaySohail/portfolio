@@ -17,7 +17,6 @@ export default function Home() {
       {/* <About /> */}
       <AboutMe/>
       <StickyScrollRevealDemo />
-      <Services />
       <Work />
       <Reviews />
       <Cta />

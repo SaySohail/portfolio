@@ -105,18 +105,6 @@ const BlurImage2 = ({ card, isSelected }) => {
           )}
           alt="thumbnail"
         />
-      {isSelected &&(
-        <div className="absolute inset-0 flex justify-center items-center visible md:invisible">
-        <Link
-              href={card.github}
-              target="_blank" 
-              rel="noopener noreferrer"
-              className='bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-100 opacity-100 z-[100]'
-            >
-              <Github className='text-white' />
-            </Link>
-        </div>
-      )}
        {!isSelected &&(
        
         <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent">
