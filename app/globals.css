@@ -60,6 +60,12 @@
   }
   body {
     @apply bg-background text-foreground;
+        /* Hide scrollbar styles */
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+  }
+  body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
   }
 }
 

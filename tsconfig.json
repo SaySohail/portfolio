@@ -118,7 +118,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "components/StickyScrollRevealDemo.jsx", "components/ui/sticky-scroll-reveal.jsx"  ],
+, "components/WorkExperience.jsx", "components/ui/sticky-scroll-reveal.jsx"  ],
   "exclude": [
     "node_modules"
   ]

@@ -1,22 +1,27 @@
-// components
 
-import About from '@/components/About';
-import Hero from '@/components/Hero';
-import Services from '@/components/Services';
+
+"use client";
+import React, { useState } from "react";import Hero from '@/components/Hero';
 import Work from '@/components/Work';
 import {Reviews} from '@/components/Reviews';
 import Cta from '@/components/Cta';
 import AboutMe from '@/components/Aboutme'
 
-import {StickyScrollRevealDemo} from '@/components/StickyScrollRevealDemo'
+import {WorkExperience} from '@/components/WorkExperience'
+
 
 export default function Home() {
+  const [enableScroll, setEnableScroll] = useState(false);
+
+  const handleScrollEnd = (isEndReached) => {
+    setEnableScroll(isEndReached);
+  };
   return (
-    <main className='hide-scrollbar'>
+    <main  className={`hide-scrollbar ${enableScroll ? '' : 'overflow-hidden'}`}>
       <Hero />
       {/* <About /> */}
       <AboutMe/>
-      <StickyScrollRevealDemo />
+      <WorkExperience onScrollEnd={handleScrollEnd} />
       <Work />
       <Reviews />
       <Cta />

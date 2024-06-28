@@ -13,24 +13,20 @@ const links = [
   { path: '/contact', name: 'contact' },
 ];
 
-const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
+const Nav = ({ containerStyles, linkStyles, underlineStyles, closeNav }) => {
   const path = usePathname();
   return (
-    <nav className={`${containerStyles}`}>
+    <nav className={containerStyles}>
       {links.map((link, index) => {
         return (
-          <Link
-            href={link.path}
-            key={index}
-            className={`capitalize ${linkStyles}`}
-          >
+          <Link href={link.path} key={index} onClick={closeNav} className={`capitalize ${linkStyles}`}>
             {link.path === path && (
               <motion.span
                 initial={{ y: '-100%' }}
                 animate={{ y: 0 }}
                 transition={{ type: 'tween' }}
                 layoutId='underline'
-                className={`${underlineStyles}`}
+                className={underlineStyles}
               />
             )}
             {link.name}

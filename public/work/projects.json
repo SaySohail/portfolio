@@ -3,7 +3,7 @@
       {
         "id": 1,
         "title": "Clustering of Football Players Similar to Kylian Mbappe using K-means and GMM algorithms",
-        "description": "A serene and tranquil retreat, this house in the woods offers a peaceful escape from the hustle and bustle of city life.",
+        "description": "This project analyses an engineered dataset of aggregated player performance from FBref, using pandas for data manipulation through DataFrames, matplotlib for data visualisation, and scikit-learn for Machine Learning, to cluster the data to find players similar to 'Kylian Mbappé'.",
         "className": "md:col-span-2",
         "thumbnail": "/work/kylian_mbappe.jpg",
         "github": "https://github.com/SaySohail/football-player-similarity-kmeans-gmm"
@@ -11,7 +11,7 @@
       {
         "id": 2,
         "title": "OpenAI Personal ChatBot",
-        "description": "Perched high above the world, this house offers breathtaking views and a unique living experience. It's a place where the sky meets home, and tranquility is a way of life.",
+        "description": "This project develops a web-based chatbot using OpenAI's language models. It processes user queries, interacts conversationally, and provides informative responses. The backend uses Node.js with Express for server logic, while the frontend employs HTML, CSS, and JavaScript for capturing user input and displaying responses.",
         "className": "col-span-1",
         "thumbnail": "/work/chatbot.jpg",
         "github":"https://github.com/SaySohail/Chatbot"
@@ -19,7 +19,7 @@
       {
         "id": 3,
         "title": "House-keeping WhatsApp Notifier",
-        "description": "A house surrounded by greenery and nature's beauty. It's the perfect place to relax, unwind, and enjoy life.",
+        "description": "The House-keeping WhatsApp Notifier is a serverless solution designed to automate the process of sending cleaning task reminders. Leveraging AWS Lambda and the Twilio API, this project efficiently notifies individuals of their scheduled cleaning duties according to a predefined rota, ensuring timely task completion and effective communication.",
         "className": "col-span-1",
         "thumbnail": "/work/aws-cleaning.jpg",
         "github": "https://github.com/SaySohail/aws-cleaning-rota"
@@ -27,7 +27,7 @@
       {
         "id": 4,
         "title": "NLP: Optimizing Character Vectors for Enhanced Retrieval in Eastenders Scripts",
-        "description": "A house by the river is a place of peace and tranquility. It's the perfect place to relax, unwind, and enjoy life.",
+        "description": "This project enhanced vector representations of Eastenders script character documents by using improved pre-processing, linguistic feature extraction, dialogue context and scene features, and better vectorization methods. The goal was to maximize character distinction and improve information retrieval classification, leading to more accurate and effective character document similarity assessments.",
         "className": "md:col-span-2",
         "thumbnail": "/work/eastenders.jpg",
         "github": "https://github.com/SaySohail/nlp-vector-space-semantics"
@@ -35,7 +35,7 @@
       {
         "id": 5,
         "title": "Fake News Detection using Support Vector Machine (SVM) Classifier",
-        "description": "Nestled in the mountains, this home offers stunning views and a cozy retreat for nature lovers.",
+        "description": "This project implemented an SVM classifier for fake news detection, using text classification techniques to distinguish between real and fake news. Various strategies were explored to optimize pre-processing, feature extraction, and metadata inclusion. The final model's performance was evaluated through cross-validation and error analysis, resulting in enhanced accuracy and effectiveness for fake news detection systems.",
         "className": "md:col-span-2",
         "thumbnail": "/work/fake-news.jpg",
         "github": "https://github.com/SaySohail/nlp-fake-news"
@@ -43,7 +43,7 @@
       {
         "id": 6,
         "title": "Semi-structured database for a taxi company using MongoDB",
-        "description": "A beautiful oasis in the desert, providing a perfect blend of luxury and natural beauty.",
+        "description": "This project designed a MongoDB database for a taxi company, storing data on drivers, cars, bookings, payments, shifts, clients, and revenue. A UML diagram guided the creation of collections. Twelve MongoDB queries, including six with the Aggregation Framework, demonstrated data extraction and advanced modeling, highlighting MongoDB's flexibility for the company's needs.",
         "className": "col-span-1",
         "thumbnail": "/work/taxi-company.jpg",
         "github":"https://github.com/SaySohail/mongodb-taxi-company"
@@ -51,7 +51,7 @@
       {
         "id": 7,
         "title": "Haskell Social Network Simulation",
-        "description": "A stylish home in the heart of the city, combining modern design with urban convenience.",
+        "description": "The Haskell Social Network Simulation project simulates a social network with ten user threads that randomly send messages to each other. It defines Haskell data types for users and messages, and the main thread manages the simulation. The project includes error handling, haddock-style comments, and a report on design decisions and challenges.",
         "className": "col-span-1",
         "thumbnail": "/work/social-network.jpg",
         "github": "https://github.com/SaySohail/haskell-social-network-simulation"
@@ -59,7 +59,7 @@
       {
         "id": 8,
         "title": "Clustering Vowel Formant Frequencies Using Mixture of Gaussians and EM Algorithm",
-        "description": "This home by the sea offers stunning ocean views and a relaxing atmosphere.",
+        "description": "This project used the Mixture of Gaussians model and the EM algorithm to cluster vowel formant frequencies. By applying unsupervised learning, we identified patterns in the vowel data, enhancing the understanding of formant frequencies and phoneme classifications, with applications in speech recognition, phonetics, and linguistics.",
         "className": "md:col-span-2",
         "thumbnail": "/work/vowel-formant.jpg",
         "github": "https://github.com/SaySohail/Unsupervised-Learning"
@@ -67,7 +67,7 @@
       {
         "id": 9,
         "title": "Predicting Diabetes Progression Using Linear Regression and Regularization Techniques",
-        "description": "A beautiful home on the lake, perfect for water enthusiasts and those seeking tranquility.",
+        "description": "This machine learning project analyzes a diabetes dataset of 442 patients, using linear regression to predict disease progression. Techniques include univariate and multivariate regression, with a focus on addressing underfitting, overfitting, and applying regularization to improve model performance.",
         "className": "md:col-span-2",
         "thumbnail": "/work/diabetes.jpg",
         "github": "https://github.com/SaySohail/linear-regression-diabetes-dataset"
@@ -75,7 +75,7 @@
       {
         "id": 10,
         "title": "Haskell Weather Data Harvesting App",
-        "description": "Surrounded by trees, this house offers a peaceful retreat in the heart of the forest.",
+        "description": "The Haskell Web Data Harvesting App efficiently harvests web data and stores it in a database. It includes features like data extraction, database interaction, JSON representation, and documentation generation. Enhanced functionality includes database dump, table updates, CSV insertion, improved UI, and error handling. The user manual guides users in compiling, running, and utilizing the app for web data harvesting.",
         "className": "col-span-1",
         "thumbnail": "/work/weather-forecast.jpg",
         "github": "https://github.com/SaySohail/haskell-weather-app"
@@ -83,7 +83,7 @@
       {
         "id": 11,
         "title": "Iris Plant Classification",
-        "description": "Iris Plant Classification Using Logistic Regression and Neural Networks",
+        "description": "This machine learning project classifies iris plants into three classes (Iris-Setosa, Iris-Versicolour, and Iris-Virginica) based on sepal and petal measurements. Using a dataset of 150 instances (50 per class), classification algorithms like logistic regression and neural networks are applied to build accurate models for classifying new iris samples.",
         "className": "md:col-span-2",
         "thumbnail": "/work/iris.jpg",
         "github": "https://github.com/SaySohail/iris-classification"
@@ -91,7 +91,7 @@
       {
         "id": 12,
         "title": "Leveraging XQuery for Advanced XML Data Analysis and Word Frequency Insights",
-        "description": "Predicting Diabetes Progression Using Linear Regression and Regularization Techniques",
+        "description": "This project explored the XQuery language for parsing and manipulating XML data. It demonstrated the use of FLWOR expressions, XPath functions, and probability calculations, highlighting XQuery's flexibility for structured information retrieval and analysis. The resulting XQuery files are valuable for computational linguists and professionals studying word usage dynamics in English.",
         "className": "col-span-1",
         "thumbnail": "/work/xml-query.jpg",
         "github": "https://github.com/SaySohail/xml-structured-information"

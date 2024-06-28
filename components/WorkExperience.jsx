@@ -90,7 +90,8 @@ const experience = [
       "Developed and managed the API layer using Axios, enabling efficient data retrieval and manipulation for various platform functionalities.",
       "Set up Jest for unit testing and Cypress for end-to-end automated testing, ensuring the reliability of the platform.",
       "Spearheaded the integration of advanced NLP models using OpenAI's GPT-4 and Cohere's reranking endpoint, significantly enhancing the platform's legal document summarization and case analysis capabilities.",
-      "Developed AI-driven chat functionalities, employing LangChain and RAG for context-aware, legally accurate conversations."
+      "Developed AI-driven chat functionalities, employing LangChain and RAG for context-aware, legally accurate conversations.",
+      "Conducted rigorous evaluations of the RAG model's performance in legal contexts, employing a variety of metrics such as the RAG Triad of metrics, ROUGE, ARES, BLEU, and RAGAs."
     ],
     "jobType": "Internship",
     "skills": [
@@ -112,11 +113,12 @@ const experience = [
     "title": "Associate Consultant",
     "year": "Sep 2018 - Aug 2022",
     "responsibilities": [
-      "Led UX research, including journey mapping, competitive analysis, and the creation of wireframes and digital prototypes for mobile app development.",
+      "Led a UI rewrite for an E-Commerce/Procurement web app using Angular 7 and JBoss, enhancing performance and compatibility.",
       "Developed a mobile app in SwiftUI with an MVVM architecture, incorporating custom animations and reusable UI components.",
       "Implemented Single Sign-On with Microsoft Authenticator Library and managed reactive form validations using the Combine framework.",
-      "Led a UI rewrite for an E-Commerce/Procurement web app using Angular 7 and JBoss, enhancing performance and compatibility.",
-      "Created solutions for Complaints Management integrating Single Sign-On with OKTA and Agile Apps."
+      "Created solutions for Complaints Management integrating Single Sign-On with OKTA and Agile Apps.",
+      "Constructed Full-Text Search queries in SQL Server and implemented automated Continuous Integration and Deployment using Jenkins.",
+      "Developed i18n localization for German and English users and built a search engine for the E-commerce application."
     ],
     "jobType": "Full-time",
     "skills": [
@@ -126,7 +128,7 @@ const experience = [
       "SwiftUI",
       "MVVM",
       "webMethods",
-      "Single Sign-On",
+      "AWS",
       "Angular",
       "JBoss",
       "Combine Framework",
@@ -136,10 +138,10 @@ const experience = [
   }
 ];
 
-export function StickyScrollRevealDemo() {
+export function WorkExperience({onScrollEnd}) {
   return (
     <div className="p-10">
-      <StickyScroll content={experience} />
+      <StickyScroll content={experience} onScrollEnd={onScrollEnd} />
     </div>
   );
 }

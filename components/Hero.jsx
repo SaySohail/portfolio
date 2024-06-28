@@ -47,7 +47,7 @@ const Hero = () => {
             <TextGenerateEffect className='h1 mb-4' words='Hello, my name is Sayed Sohail'> </TextGenerateEffect>
             <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>
             <br/>
-            As an AI and Machine Learning enthusiast specializing in NLP, I harness the power of advanced data science to drive innovation and optimize performance across a variety of industries. With a robust foundation in full stack development, I deliver cutting-edge solutions that enhance user experience and maximize operational efficiency. <br/><br/>Let's connect and explore how we can transform the future together!
+            As an AI and Machine Learning enthusiast specializing in NLP, I harness the power of advanced data science to drive innovation and optimize performance across a variety of industries. With a robust foundation in full stack development, I deliver cutting-edge solutions that enhance user experience and maximize operational efficiency. <br/><br/>
             </p>
 
 

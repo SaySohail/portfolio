@@ -2,57 +2,18 @@ import { Button } from './ui/button';
 import Link from 'next/link';
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 const words = [
-  {
-    text: "Prepared ",
-   
-  },
-  {
-    text: "to ",
-   
-  },
-  {
-    text: "turn ",
-   
-  },
-  {
-    text: "your ",
-   
-  },
-  {
-    text: "ideas ",
-   
-  },
-  {
-    text: "into ",
-   
-  },
-  {
-    text: "reality? ",
-   
-  },
-  {
-    text: " ",
-   
-  },
-  {
-    text: "I'm ",
-   
-  },
-  {
-    text: "here ",
-   
-  },
-  {
-    text: "to ",
-   
-  },
-  {
-    text: "help. ",
-   
-  },
- 
+  { text: "Let's " },
+  { text: "connect " },
+  { text: "and " },
+  { text: "explore " },
+  { text: "how " },
+  { text: "we " },
+  { text: "can " },
+  { text: "transform " },
+  { text: "the " },
+  { text: "future " },
+  { text: "together!" }
 ];
-
 const Cta = () => {
   return (
     <section className='py-24 bg-tertiary dark:bg-secondary/40'>
