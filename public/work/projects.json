@@ -22,7 +22,7 @@
         "description": "The House-keeping WhatsApp Notifier is a serverless solution designed to automate the process of sending cleaning task reminders. Leveraging AWS Lambda and the Twilio API, this project efficiently notifies individuals of their scheduled cleaning duties according to a predefined rota, ensuring timely task completion and effective communication.",
         "className": "col-span-1",
         "thumbnail": "/work/aws-cleaning.jpg",
-        "github": "https://github.com/SaySohail/aws-cleaning-rota"
+        "github": "https://gist.github.com/SaySohail/645c644555a13a69bdd1d3877831c639"
       },
       {
         "id": 4,
