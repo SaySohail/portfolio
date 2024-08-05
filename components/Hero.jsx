@@ -58,7 +58,7 @@ const Hero = () => {
                   Contact me <Send size={18} />
                 </Button>
               </Link>
-              <a href="/hero/Sayed_Sohail_CV.pdf" download="Sayed_Sohail_CV.pdf" className="no-underline">
+              <a href="/hero/Sayed_Sohail_CV.pdf" download="SayedSohailCV.pdf" className="no-underline">
               <Button variant='secondary' className='gap-x-2'>
                 Download CV
                 <Download size={18} />
