@@ -26,6 +26,14 @@ const projectData = [
     github: 'https://github.com/SaySohail/football-player-similarity-kmeans-gmm',
   },
   {
+    category: 'react js',
+    name: "LLM powered Email Response Automation for a Fashion-Store",
+    description: "This project automates email handling for a fashion retailer using LLMs and RAG. It classifies emails as product inquiries or order requests, checks stock, generates professional responses, and recommends products using semantic search over the catalog.",
+    link: "/",
+    image: "/work/email-automation.png",
+    github: "https://github.com/SaySohail/LLM-powered-Email-Response-Automation-for-a-Fashion-Store"
+  },
+  {
     image: '/work/chatbot.jpg',
     category: 'react js',
     name: 'OpenAI Personal ChatBot',

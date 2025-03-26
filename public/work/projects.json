@@ -4,25 +4,25 @@
         "id": 1,
         "title": "Clustering of Football Players Similar to Kylian Mbappe using K-means and GMM algorithms",
         "description": "This project analyses an engineered dataset of aggregated player performance from FBref, using pandas for data manipulation through DataFrames, matplotlib for data visualisation, and scikit-learn for Machine Learning, to cluster the data to find players similar to 'Kylian Mbappé'.",
-        "className": "md:col-span-2",
+        "className": "md:col-span-1",
         "thumbnail": "/work/kylian_mbappe.jpg",
         "github": "https://github.com/SaySohail/football-player-similarity-kmeans-gmm"
       },
       {
         "id": 2,
+        "title": "LLM powered Email Response Automation for a Fashion-Store",
+        "description": "This project automates email handling for a fashion retailer using LLMs and RAG. It classifies emails as product inquiries or order requests, checks stock, generates professional responses, and recommends products using semantic search over the catalog.",
+        "className": "md:col-span-2",
+        "thumbnail": "/work/email-automation.png",
+        "github": "https://github.com/SaySohail/LLM-powered-Email-Response-Automation-for-a-Fashion-Store"
+      },
+        {
+        "id": 3,
         "title": "OpenAI Personal ChatBot",
         "description": "This project develops a web-based chatbot using OpenAI's language models. It processes user queries, interacts conversationally, and provides informative responses. The backend uses Node.js with Express for server logic, while the frontend employs HTML, CSS, and JavaScript for capturing user input and displaying responses.",
         "className": "col-span-1",
         "thumbnail": "/work/chatbot.jpg",
         "github":"https://github.com/SaySohail/Chatbot"
-      },
-      {
-        "id": 3,
-        "title": "House-keeping WhatsApp Notifier",
-        "description": "The House-keeping WhatsApp Notifier is a serverless solution designed to automate the process of sending cleaning task reminders. Leveraging AWS Lambda and the Twilio API, this project efficiently notifies individuals of their scheduled cleaning duties according to a predefined rota, ensuring timely task completion and effective communication.",
-        "className": "col-span-1",
-        "thumbnail": "/work/aws-cleaning.jpg",
-        "github": "https://gist.github.com/SaySohail/645c644555a13a69bdd1d3877831c639"
       },
       {
         "id": 4,
@@ -42,11 +42,11 @@
       },
       {
         "id": 6,
-        "title": "Semi-structured database for a taxi company using MongoDB",
-        "description": "This project designed a MongoDB database for a taxi company, storing data on drivers, cars, bookings, payments, shifts, clients, and revenue. A UML diagram guided the creation of collections. Twelve MongoDB queries, including six with the Aggregation Framework, demonstrated data extraction and advanced modeling, highlighting MongoDB's flexibility for the company's needs.",
+        "title": "House-keeping WhatsApp Notifier",
+        "description": "The House-keeping WhatsApp Notifier is a serverless solution designed to automate the process of sending cleaning task reminders. Leveraging AWS Lambda and the Twilio API, this project efficiently notifies individuals of their scheduled cleaning duties according to a predefined rota, ensuring timely task completion and effective communication.",
         "className": "col-span-1",
-        "thumbnail": "/work/taxi-company.jpg",
-        "github":"https://github.com/SaySohail/mongodb-taxi-company"
+        "thumbnail": "/work/aws-cleaning.jpg",
+        "github": "https://gist.github.com/SaySohail/645c644555a13a69bdd1d3877831c639"
       },
       {
         "id": 7,
@@ -95,6 +95,14 @@
         "className": "col-span-1",
         "thumbnail": "/work/xml-query.jpg",
         "github": "https://github.com/SaySohail/xml-structured-information"
+      },
+        {
+        "id": 13,
+        "title": "Semi-structured database for a taxi company using MongoDB",
+        "description": "This project designed a MongoDB database for a taxi company, storing data on drivers, cars, bookings, payments, shifts, clients, and revenue. A UML diagram guided the creation of collections. Twelve MongoDB queries, including six with the Aggregation Framework, demonstrated data extraction and advanced modeling, highlighting MongoDB's flexibility for the company's needs.",
+        "className": "col-span-1",
+        "thumbnail": "/work/taxi-company.jpg",
+        "github":"https://github.com/SaySohail/mongodb-taxi-company"
       }
     ]
   }
